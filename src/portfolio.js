@@ -273,7 +273,7 @@ const bigProjects = {
     },
 
     {
-      image: require("./assets/images/1984.jpg"),
+      image: require("./assets/images/1984.png"),
       projectName: "Sentiment Analysis - 1984's Review on Goodreads",
       projectDesc: "Analyzing public sentiment toward George Orwell's 1984 from Goodreads reviews (2007–2025) using BERT. The project explores sentiment volatility, thematic focus, and perception shifts, highlighting how societal changes impact the book's legacy.",
       footerLink: [
