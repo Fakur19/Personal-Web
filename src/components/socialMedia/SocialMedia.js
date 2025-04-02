@@ -1,6 +1,7 @@
 import React from "react";
 import "./SocialMedia.scss";
 import {socialMediaLinks} from "../../portfolio";
+import tableauLogo from "../../assets/images/tableau.png"; // adjust path if needed
 
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
@@ -112,6 +113,18 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-stack-overflow"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.tableau ? (
+        <a
+          href={socialMediaLinks.tableau}
+          className="icon-button tableau"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={tableauLogo} alt="Tableau" className="social-icon" />
           <span></span>
         </a>
       ) : null}
