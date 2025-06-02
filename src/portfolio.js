@@ -140,7 +140,7 @@ const educationInfo = {
       schoolName: "Widyatama University",
       logo: require("./assets/images/widyatama.png"),
       subHeader: "Bachelor of Informations System",
-      duration: "July 2021 - August 2025",
+      duration: "2021 - 2025",
       desc: "Relevant Coursework:",
       descBullets: [
         "Data Analytics",
@@ -283,6 +283,18 @@ const bigProjects = {
         }
       ]
     },
+
+    {
+      image: require("./assets/images/ulasbuku.png"),
+      projectName: "Ulasbuku - Book's Social Media",
+      projectDesc: "A full-stack social platform for book lovers where users can discover, review, and rate books, share posts with optional images, comment on discussions, and connect by following other readers. Built with Node.js, Express, MongoDB, and EJS, featuring a responsive design and light/dark modes.",
+      footerLink: [
+        {
+          name: "See the project",
+          url: "https://ulasbuku.onrender.com/"
+        }
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -291,16 +303,16 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Certifications that I have done !",
 
   achievementsCards: [
     {
       title: "Cisco CyberOps Associate",
       subtitle: "Trained in real-world cybersecurity operations, including threat detection, incident response, and network monitoring. Equipped with essential skills to help protect digital environments.",
       image: require("./assets/images/cisco.png"),
-      imageAlt: "PWA Logo",
+      imageAlt: "Cisco CyberOps Logo",
       footerLink: [
         { name: "Certification", 
           url: "https://www.credly.com/badges/cd5b8745-25d0-499e-bf9b-f1d18f6b98ee"},
@@ -312,7 +324,7 @@ const achievementSection = {
       subtitle:
         "Turning raw data into actionable insights using tools like SQL, R, and spreadsheets. Gained a strong foundation in data cleaning, visualization, and storytelling to support data-driven decisions.",
       image: require("./assets/images/google.png"),
-      imageAlt: "Google",
+      imageAlt: "Google Logo",
       footerLink: [
         {
           name: "Certification",
@@ -333,7 +345,7 @@ const achievementSection = {
       subtitle:
         "Built dynamic dashboards and reports using Tableau and SQL to visualize business performance. Learned how to transform data into clear, strategic insights that drive smarter business outcomes.",
       image: require("./assets/images/google.png"),
-      imageAlt: "Google Assistant Action Logo",
+      imageAlt: "Google Logo",
       footerLink: [
         {
           name: "Certification",
@@ -348,7 +360,7 @@ const achievementSection = {
       title: "Google AI Essentials",
       subtitle: "Explored the power of artificial intelligence through real-world use cases. Gained a solid understanding of AI concepts, ethical considerations, and practical tools—no coding required.",
       image: require("./assets/images/google-ai.png"),
-      imageAlt: "PWA Logo",
+      imageAlt: "Google logo",
       footerLink: [
         { name: "Certification", 
           url: "https://www.credly.com/earner/earned/badge/3fdd3c29-74f9-464c-b6cd-7306507df1bc"},
@@ -359,7 +371,18 @@ const achievementSection = {
       title: "Google Cloud Skill Boost",
       subtitle: "Hands-on experience with Google Cloud’s most powerful tools. Completed guided labs and projects across cloud computing, data engineering, and machine learning to solve real business challenges.",
       image: require("./assets/images/gcp.png"),
-      imageAlt: "PWA Logo",
+      imageAlt: "Google Cloud Logo",
+      footerLink: [
+        { name: "Certification", 
+          url: "https://www.cloudskillsboost.google/public_profiles/a5b48afe-59dc-48e7-bd4b-72308396e09f"},
+      ]
+    },
+
+    {
+      title: "SAP AC010 - Business Processes in Financial Accounting",
+      subtitle: "This course provides a comprehensive overview of key financial accounting processes within the SAP ERP system, covering essential modules such as General Ledger (GL) accounting, Accounts Payable (AP), and Accounts Receivable (AR).",
+      image: require("./assets/images/sap.png"),
+      imageAlt: "SAP Logo",
       footerLink: [
         { name: "Certification", 
           url: "https://www.cloudskillsboost.google/public_profiles/a5b48afe-59dc-48e7-bd4b-72308396e09f"},
