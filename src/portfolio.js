@@ -33,14 +33,14 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  instagram:"https://www.instagram.com/fa.kur/",
+  instagram: "https://www.instagram.com/fa.kur/",
   github: "https://github.com/fakur19",
-  kaggle:"https://www.kaggle.com/fajarkurnia/code",
-  tableau:"https://public.tableau.com/app/profile/fajar.kurnia3266/vizzes",
+  kaggle: "https://www.kaggle.com/fajarkurnia/code",
+  tableau: "https://public.tableau.com/app/profile/fajar.kurnia3266/vizzes",
   linkedin: "https://www.linkedin.com/in/fajar-kurnia-b8a556234/",
   gmail: "kurniafajarkurnia@gmail.com",
   medium: "https://medium.com/@kurniafajarkurnia",
-  
+
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -76,53 +76,53 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "Python",
-      
-      iconifyClassname: "tableau-icon", 
+
+      iconifyClassname: "tableau-icon",
       imageSrc: require("./assets/images/python.png")
     },
     {
       skillName: "R",
-      iconifyClassname: "tableau-icon", 
+      iconifyClassname: "tableau-icon",
       imageSrc: require("./assets/images/r.webp")
     },
     {
       skillName: "JavaScript",
-      iconifyClassname: "tableau-icon", 
+      iconifyClassname: "tableau-icon",
       imageSrc: require("./assets/images/js.png")
     },
     {
       skillName: "Nodejs",
-      iconifyClassname: "tableau-icon", 
+      iconifyClassname: "tableau-icon",
       imageSrc: require("./assets/images/nodejs.png")
     },
     {
       skillName: "PostgreSQL",
-      iconifyClassname: "tableau-icon", 
+      iconifyClassname: "tableau-icon",
       imageSrc: require("./assets/images/postgre.png")
     },
     {
       skillName: "BigQuery",
-      iconifyClassname: "tableau-icon", 
+      iconifyClassname: "tableau-icon",
       imageSrc: require("./assets/images/big-query.webp")
     },
     {
       skillName: "Google Cloud Platform",
-      iconifyClassname: "tableau-icon", 
+      iconifyClassname: "tableau-icon",
       imageSrc: require("./assets/images/gcp.png")
     },
     {
       skillName: "Tableau",
-      iconifyClassname: "tableau-icon", 
+      iconifyClassname: "tableau-icon",
       imageSrc: require("./assets/images/tableau.png")
     },
     {
       skillName: "Power BI",
-      iconifyClassname: "tableau-icon", 
+      iconifyClassname: "tableau-icon",
       imageSrc: require("./assets/images/power-bi.png")
     },
     {
       skillName: "Looker Studio",
-      iconifyClassname: "tableau-icon", 
+      iconifyClassname: "tableau-icon",
       imageSrc: require("./assets/images/looker.png")
     },
 
@@ -295,6 +295,18 @@ const bigProjects = {
         }
       ]
     },
+
+    {
+      image: require("./assets/images/goty.png"),
+      projectName: "Game of The Year Sentiment Analysis",
+      projectDesc: "This repository contains the Jupyter Notebook and resources for a research project on sentiment analysis of 'Game of the Year' award-winning games on Steam, utilizing the BERT model from Hugging Face Transformers.",
+      footerLink: [
+        {
+          name: "See the project",
+          url: "https://github.com/Fakur19/goty-sentiment-analysis"
+        }
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -314,8 +326,10 @@ const achievementSection = {
       image: require("./assets/images/cisco.png"),
       imageAlt: "Cisco CyberOps Logo",
       footerLink: [
-        { name: "Certification", 
-          url: "https://www.credly.com/badges/cd5b8745-25d0-499e-bf9b-f1d18f6b98ee"},
+        {
+          name: "Certification",
+          url: "https://www.credly.com/badges/cd5b8745-25d0-499e-bf9b-f1d18f6b98ee"
+        },
       ]
     },
 
@@ -354,7 +368,7 @@ const achievementSection = {
       ]
     },
 
-    
+
 
     {
       title: "Google AI Essentials",
@@ -362,8 +376,10 @@ const achievementSection = {
       image: require("./assets/images/google-ai.png"),
       imageAlt: "Google logo",
       footerLink: [
-        { name: "Certification", 
-          url: "https://www.credly.com/earner/earned/badge/3fdd3c29-74f9-464c-b6cd-7306507df1bc"},
+        {
+          name: "Certification",
+          url: "https://www.credly.com/earner/earned/badge/3fdd3c29-74f9-464c-b6cd-7306507df1bc"
+        },
       ]
     },
 
@@ -373,8 +389,10 @@ const achievementSection = {
       image: require("./assets/images/gcp.png"),
       imageAlt: "Google Cloud Logo",
       footerLink: [
-        { name: "Certification", 
-          url: "https://www.cloudskillsboost.google/public_profiles/a5b48afe-59dc-48e7-bd4b-72308396e09f"},
+        {
+          name: "Certification",
+          url: "https://www.cloudskillsboost.google/public_profiles/a5b48afe-59dc-48e7-bd4b-72308396e09f"
+        },
       ]
     },
 
@@ -384,8 +402,10 @@ const achievementSection = {
       image: require("./assets/images/sap.png"),
       imageAlt: "SAP Logo",
       footerLink: [
-        { name: "Certification", 
-          url: "https://www.cloudskillsboost.google/public_profiles/a5b48afe-59dc-48e7-bd4b-72308396e09f"},
+        {
+          name: "Certification",
+          url: "https://www.cloudskillsboost.google/public_profiles/a5b48afe-59dc-48e7-bd4b-72308396e09f"
+        },
       ]
     }
   ],
@@ -461,7 +481,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  
+
   email_address: "kurniafajarkurnia@gmail.com"
 };
 
